@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comments</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__wrapper container">
+            <section class="header__contacts contacts">
+                <ul class="contacts__list">
+                    <li class="contacts__item">
+                        <a class="contacts__link" href="tel:+74993409471">
+                            Телефон: (499) 340-94-71
+                        </a>
+                    </li>
+                    <li class="contacts__item">
+                        <a class="contacts__link" href="mailto:info@future-group.ru">
+                            Email: <span class="contacts__item-underline">info@future-group.ru</span> 
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <a class="logo" href="http://future-group.ru">
+                <img src="./img/lodo.png" alt="Фьюче групп" width="163px" height="172px">
+            </a>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <h1 class="main__header">
+                Комментарии
+            </h1>
+            <section class="comments">
+                <h2 class="visually-hidden">
+                    Список камментариев
+                </h2>
+                <ul class="comments__list">
+                    <li class="comments__item comment">
+                        <p class="comment__name">
+                            Савва
+                        </p>
+                        <span class="comment__time">
+                            18:05
+                        </span>
+                        <span class="comment__date">
+                            07.02.2014 
+                        </span>
+                        <p class="comment__text">
+                            Спасибо за Ваше тестовое задание. Оно, действительно, изумитель
+                        </p>
+                    </li>
+                    <li class="comments__item comment">
+                        <p class="comment__name">
+                            Евдоким
+                        </p>
+                        <span class="comment__time">
+                            17:42
+                        </span>
+                        <span class="comment__date">
+                            07.02.2014 
+                        </span>
+                        <p class="comment__text">
+                            Если включить мозги, то все элементарно Ватсон!
+                        </p>
+                    </li>
+                    <li class="comments__item comment">
+                        <p class="comment__name">
+                            Артемий
+                        </p>
+                        <span class="comment__time">
+                            16:10
+                        </span>
+                        <span class="comment__date">
+                            07.02.2014 
+                        </span>
+                        <p class="comment__text">
+                            Почему такое сложное задание??? Мне кажется, нужно быть первоклассным программистом, чтобы выполнить его  :(                    </p>
+                    </li>
+                </ul>
+            </section>
+            <section class="new-comment">
+                <h2 class="new-comment__header">
+                    Оставить комментарий
+                </h2>
+                <form class="new-comment__form" action="" method="GET">
+                    <label class="new-comment__label" for="name">
+                        Ваше имя
+                    </label>
+                    <input class="new-comment__name-field" id="name" type="text" placeholder="Герасим" required>
+                    <label class="new-comment__label" for="comment">
+                        Ваш комментарий
+                    </label>
+                    <textarea class="new-comment__text" id="comment" required>
+
+                    </textarea>
+                    <input class="new-comment__submit" type="submit" value="Отправить">
+                </form>
+            </section>
+        </div>
+        
+    </main>
+    <footer class="footer">
+        <div class="footer__wrapper container">
+            <a class="footer__logo logo" href="http://future-group.ru">
+                <img src="./img/lodo.png" alt="Фьюче групп" width="101px" height="106px">
+            </a>
+            <section class="footer__contacts contacts">
+                <ul class="contacts__list">
+                    <li class="contacts__item">
+                        <a class="contacts__link" href="tel:+74993409471">
+                            Телефон: (499) 340-94-71
+                        </a>
+                    </li>
+                    <li class="contacts__item">
+                        <a class="contacts__link" href="mailto:info@future-group.ru">
+                            Email: <span class="contacts__item-underline">info@future-group.ru</span>
+                        </a>
+                    </li>
+                    <li class="contacts__item">
+                        <a class="contacts__link" href="https://yandex.ru/maps/213/moscow/house/2_ya_ulitsa_mashinostroyeniya_7s1/Z04YcABhSkIFQFtvfXtwc39gYQ==/?ll=37.671372%2C55.712335&utm_source=main_stripe_big&z=16" target="blank">
+                            Адрес: <span class="contacts__item-underline">115088 Москва, ул. 2-я Машиностроения, д. 7 стр. 1</span>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <p class="footer__copyright">
+                © 2010 - 2014 Future. Все права защищены
+            </p>
+        </div>
+        
+    </footer>
+</body>
+</html>
