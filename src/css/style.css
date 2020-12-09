@@ -175,13 +175,21 @@ body {
   font-size: 18px;
   font-weight: 300;
 }
+.new-comment__submit:hover {
+  background-color: #ccc;
+}
+.new-comment__submit:active {
+  background-color: #aaa;
+}
+.footer {
+  background-color: #f9f9f9;
+}
 .footer__wrapper {
   display: grid;
   grid-template-columns: max-content max-content;
   grid-template-rows: 1fr max-content;
   column-gap: 37px;
   row-gap: 15px;
-  background-color: #f9f9f9;
 }
 .footer__logo {
   grid-row: span 2;

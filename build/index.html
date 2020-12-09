@@ -38,7 +38,7 @@
                     Список камментариев
                 </h2>
                 <ul class="comments__list">
-                    <li class="comments__item comment">
+                    <!-- <li class="comments__item comment">
                         <p class="comment__name">
                             Савва
                         </p>
@@ -77,8 +77,9 @@
                             07.02.2014 
                         </span>
                         <p class="comment__text">
-                            Почему такое сложное задание??? Мне кажется, нужно быть первоклассным программистом, чтобы выполнить его  :(                    </p>
-                    </li>
+                            Почему такое сложное задание??? Мне кажется, нужно быть первоклассным программистом, чтобы выполнить его  :(
+                        </p>
+                    </li> -->
                 </ul>
             </section>
             <section class="new-comment">
@@ -89,13 +90,11 @@
                     <label class="new-comment__label" for="name">
                         Ваше имя
                     </label>
-                    <input class="new-comment__name-field" id="name" type="text" placeholder="Герасим" required>
+                    <input class="new-comment__name-field" name="name" id="name" type="text" placeholder="Герасим" required>
                     <label class="new-comment__label" for="comment">
                         Ваш комментарий
                     </label>
-                    <textarea class="new-comment__text" id="comment" required>
-
-                    </textarea>
+                    <textarea class="new-comment__text" name="text" id="comment" required></textarea>
                     <input class="new-comment__submit" type="submit" value="Отправить">
                 </form>
             </section>
@@ -132,5 +131,6 @@
         </div>
         
     </footer>
+    <script src="./js/js/script.js"></script>
 </body>
 </html>
